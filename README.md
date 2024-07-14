@@ -43,5 +43,5 @@ That's a simple LLM semantic search that implements RAG concepts with help of La
 2. Run the following commands
 ```sh
 npm run load
-npx run ask
+npm run ask
 ```
