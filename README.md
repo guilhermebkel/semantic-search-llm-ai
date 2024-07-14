@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-That's a simple LLM semantic search that implements RAG concepts with help of LangChain and OpenAI API. 
+That's a simple LLM semantic search that implements RAG concepts with help of LangChain and OpenAI API.
 
 ## 🔧 Technologies
 
