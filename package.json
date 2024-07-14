@@ -1,0 +1,30 @@
+{
+  "name": "semantic-search-llm-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load": "tsx src/modules/loader.ts",
+    "ask": "tsx src/modules/asker.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.18",
+    "@langchain/core": "^0.2.15",
+    "@langchain/openai": "^0.2.1",
+    "@langchain/redis": "^0.0.5",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.9",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^19.11.1",
+    "redis": "^4.6.15",
+    "web-streams-polyfill": "^4.0.0"
+  }
+}
